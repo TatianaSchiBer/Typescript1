@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un progetto di esempio</title>
+    <script defer src="dist/index.js"></script> 
+  </head>
+  <body>
+    <h1>Cerca Nomi / Cognomi</h1>
+    <div>
+      <input type="text" id="last-name-input" placeholder="Inserisci il cognome" />
+      <button id="search-button">Cerca</button>
+    </div>
+    <div id="search-results"></div>
+    <br />
+    <button id="sort-name-button">Ordenar por Nome</button>
+    <button id="sort-age-button">Ordenar por Idade</button>
+    <br /><br>
+
+   
+
+    <table style="border: solid 2px">
+      <thead>
+        <tr>
+          <th style="background-color: rgb(156, 169, 169)">Nome</th>
+          <th style="background-color: rgb(156, 169, 169)">Cognome</th>
+          <th style="background-color: rgb(156, 169, 169)">Età</th>
+          <th style="background-color: rgb(156, 169, 169)">City</th>
+        </tr>
+      </thead>
+      <tbody id="content-div"></tbody>
+    </table>
+  </body>
+</html>
